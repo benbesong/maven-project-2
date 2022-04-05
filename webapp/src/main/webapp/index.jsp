@@ -21,7 +21,7 @@
 <body>
 <div class="header">
   <h1>Hello JJ Tech Family !!!</h1>
-  <p>Sample Java Application</p>
+  <p>Sample Java Application. Enjoy !!!</p>
 </div>
 </body>
 </html>
