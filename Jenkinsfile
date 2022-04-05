@@ -41,11 +41,7 @@ pipeline {
       }
 
     }
-    stage('Approval for stage') {
-      steps {
-        input('Do you want to proceed?')
-      }
-    }
+
     stage('Deploy to Stage') {
       environment {
         HOSTS = "dev"
@@ -55,11 +51,7 @@ pipeline {
       }
 
     }
-    stage('Approval') {
-      steps {
-        input('Do you want to proceed?')
-      }
-    }
+
     stage('Deploy to PROD') {
       environment {
         HOSTS = "prod"
